@@ -1,8 +1,12 @@
 /** @jsx React.DOM */
 
-var React = require('react');
-var qs = require('query-string');
-var Q = require('q');
+import React, { Component } from 'react';
+
+import qs from 'query-string';
+
+import Q from 'q';
+
+import Bumpkit from '../../components/Bumpkit';
 
 var bumpkit = require('../bumpkit');
 

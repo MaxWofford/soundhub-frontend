@@ -5,6 +5,10 @@ body {
   -webkit-font-smoothing: antialiased
 }
 
+p {
+  margin: auto;
+}
+
 .dark-gray {
   color: #222629
 }
