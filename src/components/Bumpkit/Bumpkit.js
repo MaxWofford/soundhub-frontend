@@ -1,4 +1,3 @@
-
 import Store from './Store'
 import Clip from './Clip'
 

@@ -1,4 +1,3 @@
-
 import Gain from './Gain'
 
 class Envelope extends Gain {

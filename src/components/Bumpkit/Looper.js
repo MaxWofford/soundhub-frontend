@@ -1,4 +1,3 @@
-
 import Sampler from './Sampler'
 import Envelope from './Envelope'
 

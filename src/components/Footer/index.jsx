@@ -1,26 +1,24 @@
-/** @jsx React.DOM */
+import React, { Component } from 'react';
 
-var React = require('react');
+class Footer extends Component {
 
-module.exports = React.createClass({
-
-  render: function() {
+  render() {
     return (
-      <footer className="mt3 px2 border-top xborder-thick xborder-bright-blue">
+        <footer className="mt3 px2 border-top xborder-thick xborder-bright-blue">
         <hr className="m0 border-thick border-bright-blue muted" />
         <div className="h5 bold flex flex-baseline flex-wrap mxn2 py2">
-          <div className="px2">
-            Stepkit v{this.props.version}
-          </div>
-          <div className="flex-auto" />
-          <div className="px2">
-            <span>Made by </span>
-            <a href="//jxnblk.com" className="button button-transparent">Jxnblk</a>
-          </div>
+        <div className="px2">
+        Stepkit v{this.props.version}
+      </div>
+        <div className="flex-auto" />
+        <div className="px2">
+        <span>Made by </span>
+        <a href="//jxnblk.com" className="button button-transparent">Jxnblk</a>
         </div>
-      </footer>
+        </div>
+        </footer>
     )
-  },
+  }
+}
 
-});
-
+export default Footer;

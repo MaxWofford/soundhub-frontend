@@ -1,4 +1,3 @@
-
 class Clip {
   constructor (instrument, pattern = []) {
     this.instrument = instrument
