@@ -1,4 +1,3 @@
-
 /** State store */
 
 class Store {

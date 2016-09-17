@@ -1,4 +1,3 @@
-
 class Gain {
   constructor (context) {
     this.context = context

@@ -1,4 +1,3 @@
-
 import Envelope from './Envelope'
 import Gain from './Gain'
 
