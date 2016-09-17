@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "axios": "^0.14.0",
     "bumpkit": "^0.2.0-beta.2",
     "q": "^1.4.1",
     "react-geomicons": "^2.0.5",
