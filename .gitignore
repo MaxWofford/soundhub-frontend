@@ -1,4 +1,4 @@
-
 aws.json
-/audio
-
+audio/
+build/
+node_modules/
