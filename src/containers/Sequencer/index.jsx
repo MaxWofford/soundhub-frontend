@@ -10,6 +10,8 @@ var Toolbar = require('./toolbar.jsx');
 var Sequencer = require('./sequencer.jsx');
 var Footer = require('./footer.jsx');
 
+import './index.css';
+
 module.exports = React.createClass({
 
   getInitialState: function() {
@@ -267,4 +269,3 @@ module.exports = React.createClass({
   }
 
 });
-
