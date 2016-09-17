@@ -2,4 +2,42 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  -webkit-font-smoothing: antialiased
+}
+
+.dark-gray {
+  color: #222629
+}
+
+.bg-dark-gray {
+  background-color: #222629
+}
+
+.icon {
+  top: .125em
+}
+
+.muted {
+  opacity: .5
+}
+
+.bright-red {
+  color: #f32
+}
+
+.bg-bright-red {
+  background-color: #f32
+}
+
+.button-outline {
+  -webkit-transition-property: border, background;
+  transition-property: border, background;
+}
+
+.blue {
+  color: #30a4f9
+}
+
+.bg-blue {
+  background-color: #30a4f9
 }
